@@ -1,0 +1,37 @@
+.rightInfo {
+  width: 1088px;
+  border-radius: 20px;
+  border: 1px solid #000;
+
+  color: #000;
+  font-family: 'Inter';
+  font-size: 165px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; 
+  letter-spacing: -12px;
+  text-align: left;
+  &_green {
+    background: linear-gradient(126deg, rgba(255, 255, 255, 0) 0%, rgba(0, 255, 87, 0.6) 100%);
+  }
+  &_red {
+    background: linear-gradient(126deg, rgba(255, 255, 255, 0) 0%, rgba(255, 138, 122, 0.6) 100%);
+  }
+  h4 {
+    color: #000;
+    font-family: 'Inter';
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; 
+    letter-spacing: -2.4px;
+  }
+  &_temp {
+    margin-left: 100px;
+    margin-top: 70px;
+  }
+  &_co2 {
+    margin-left: 100px;
+    margin-top: 68px;
+  }
+}

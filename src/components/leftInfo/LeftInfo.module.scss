@@ -1,0 +1,120 @@
+.leftInfo {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  width: 713px;
+
+  .status {
+    height: 493px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 60px;
+    &_red {
+      background: #ff8a7a;
+    }
+    &_green {
+      background: #7affa7;
+    }
+
+    &_title {
+      max-width: 593px;
+      margin-top: 62.8px;
+      color: #000;
+      font-family: 'Inter';
+      font-size: 82px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 100%;
+      letter-spacing: -5.34px;
+      text-align: left;
+    }
+    &_info {
+      margin-top: 176px;
+      color: #000;
+      font-family: 'Inter';
+      font-size: 26px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 100%; 
+      text-align: left;
+    }
+  }
+  .staticBlocks {
+    display: flex;
+    gap: 40px;
+
+    .day {
+      width: 336px;
+      border-radius: 20px;
+      background: #000;
+      color: white;
+      padding-left: 20px;
+
+      &_title {
+        margin-top: 54.8px;
+        color: #fff;
+        font-family: 'Inter';
+        font-size: 55px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 100%;
+        text-align: left;
+        letter-spacing: -3.3px;
+      }
+
+      &_button {
+        cursor: pointer;
+        margin-top: 124px;
+        border-radius: 100px;
+        border: 1px solid #fff;
+        background: #fff;
+        display: flex;
+        width: 296px;
+        height: 63.65px;
+        padding: 15px 30px;
+        justify-content: space-between;
+        align-items: center;
+
+        &_text {
+          font-family: 'Inter';
+          font-size: 25px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: 100%;
+          letter-spacing: -1.5px;
+        }
+        &_svg {
+          stroke: #000000;
+        }
+
+        &:hover {
+          border: 1px solid #fff;
+          background: #000;
+          color: #fff;
+
+          svg {
+            stroke: #fff;
+          }
+        }
+      }
+    }
+
+    .logo {
+      height: 383px;
+      width: 336px;
+      display: inline-flex;
+
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      border-radius: 20px;
+      border: 1px solid #000;
+      overflow: hidden;
+
+      &_img {
+        margin-left: 56px;
+      }
+    }
+  }
+}
